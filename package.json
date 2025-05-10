@@ -1,0 +1,37 @@
+{
+  "name": "husky-semana-3",
+  "version": "1.0.0",
+  "description": "Atividade ponderada relacionada à configuração do husky.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w0lfzin/husky-semana-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w0lfzin/husky-semana-3/issues"
+  },
+  "homepage": "https://github.com/w0lfzin/husky-semana-3#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.17",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.2.0",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "4.9.5"
+  }
+}

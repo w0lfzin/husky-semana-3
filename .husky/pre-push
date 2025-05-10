@@ -1,0 +1,4 @@
+echo "🧪 Executando testes..."
+npm test || exit 1
+
+echo "✅ Pré-push concluído com sucesso!" 
